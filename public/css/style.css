@@ -13,7 +13,8 @@ html, body {
 .bg{
     background-color: var(--bg-color);
     width: 100vw;
-    height: 100vh;
+    height: 100%;
+    overflow-y: scroll;
 }
 
 
@@ -41,25 +42,25 @@ html, body {
         justify-content: center;
     }
     .sidebarHeader1Img {
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
         border-radius: 50%;
     }
     
     
-    .sidebarHeader2 > div {
+    .sidebarHeader2 > h1, .sidebarHeader2 > h2 {
         color: white;
-        font-size: 2em;
         text-align: center;
         margin-top: 10px;
     }
 
-
     .sidebarHeader2H1 {
         color: white;
+        font-size: 1.75em;
     }
     .sidebarHeader2H2 {
         color: white;
+        font-size: 1em;
     }
 
     .sidebarGrid {
@@ -68,11 +69,28 @@ html, body {
         grid-template-rows: repeat(5, 1fr);
         position: relative;
         top: 10%;
-        margin-top: 25%;
+        margin-top: 5%;
     }
 
     .sidebarGrid > div {
-        height: 100px;
+        height: 75px;
+    }
+
+    .sidebarGrid > div > a {
+        text-decoration: none;
+        color: white;
+        position: relative;
+        left: -5%;
+    }
+
+    .sidebarGrid > div > a:visited , a:link {
+        color: white;
+    }
+
+    .sidebarGrid > div > a > i {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
     }
     
         .sidebarGrid1 { 
@@ -110,14 +128,15 @@ html, body {
 
 .content {
     margin-left: 20vw;
+    width: 80vw;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .content > div {
     margin-left: 10vh;
 }
-    .contentHeader {
-
-    }
         .contentHeaderText {
             font-size: 3em;
             width: 100%;
@@ -132,3 +151,18 @@ html, body {
         .itemFlex1H1 {
             width: 300px;
         }
+
+.titleHolder {
+    display: inline-block;
+    width: 10vw;
+    text-decoration: none;
+}
+
+.titleHoleder:link , .titleHolder:visited {
+    color: blue;
+}
+
+.titleHolder > h2, .titleHolder > i {
+    display: inline;
+}
+
