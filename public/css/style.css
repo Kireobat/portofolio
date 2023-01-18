@@ -52,7 +52,7 @@ a {
     transform: translate(-5%, 10%) rotate(7deg);
 }
 .fancy:hover > .letter:nth-child(4) {
-    transform: translate(20%, -26%) rotate(-2deg);
+    transform: translate(20%, -16%) rotate(-2deg);
 }
 .fancy:hover > .letter:nth-child(5) {
     transform: translate(-5%, 20%) rotate(-11deg);
@@ -73,38 +73,38 @@ a {
     transform: translate(-5%, -19%) rotate(-7deg);
 }
 .fancy:hover > .letter:nth-child(11) {
-    transform: translate(40%, -30%) rotate(-4deg);
+    transform: translate(40%, -19%) rotate(-4deg);
 }
 .fancy:hover > .letter:nth-child(12) {
     transform: translate(-25%, -12%) rotate(-8deg);
 }
 .fancy:hover > .letter:nth-child(13) {
-    transform: translate(23%, 26%) rotate(5deg);
+    transform: translate(23%, 20%) rotate(5deg);
 }
 .fancy:hover > .letter:nth-child(14) {
-    transform: translate(24%, -17%) rotate(-6deg);
+    transform: translate(3%, -17%) rotate(-6deg);
 }
 .fancy:hover > .letter:nth-child(15) {
-    transform: translate(30%, 10%) rotate(12deg);
+    transform: translate(3%, 10%) rotate(12deg);
 }
 
 /* Email Address */
 
 
 .fancy:hover > .letter:nth-child(16) {
-    transform: translate(-27%, -27%) rotate(12deg);
+    transform: translate(7%, -18%) rotate(12deg);
 }
 .fancy:hover > .letter:nth-child(17) {
-    transform: translate(-30%, 15%) rotate(4deg);
+    transform: translate(3%, 15%) rotate(4deg);
 }
 .fancy:hover > .letter:nth-child(18) {
-    transform: translate(-25%, -30%) rotate(-2deg);
+    transform: translate(-8%, -15%) rotate(-14deg);
 }
 .fancy:hover > .letter:nth-child(19) {
-    transform: translate(-30%, 10%) rotate(7deg);
+    transform: translate(-2%, 10%) rotate(7deg);
 }
 .fancy:hover > .letter:nth-child(20) {
-    transform: translate(-20%, -20%) rotate(-2deg);
+    transform: translate(5%, -20%) rotate(-2deg);
 }
 
 /* Github */
@@ -113,17 +113,38 @@ a {
     transform: translate(10%, 20%) rotate(-11deg);
 }
 .fancy:hover > .letter:nth-child(22) {
-    transform: translate(24%, -10%) rotate(9deg);
+    transform: translate(24%, -9%) rotate(9deg);
 }
 .fancy:hover > .letter:nth-child(23) {
     transform: translate(26%, 5%) rotate(6deg);
 }
 .fancy:hover > .letter:nth-child(24) {
-    transform: translate(30%, -15%) rotate(-6deg);
+    transform: translate(17%, -15%) rotate(-6deg);
 }
 .fancy:hover > .letter:nth-child(25) {
-    transform: translate(23%, -24%) rotate(2deg);
+    transform: translate(15%, 17%) rotate(5deg);
 }
 .fancy:hover > .letter:nth-child(26) {
-    transform: translate(28%, -12%) rotate(-7deg);
+    transform: translate(3%, -12%) rotate(-7deg);
+}
+
+#github-link:hover {
+    background: linear-gradient(45deg, rgb(165, 2, 165), rgb(140, 0, 255));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+    position: relative;
+}
+
+#phoneNum:hover {
+    background: linear-gradient(45deg, rgb(27, 134, 206), rgb(0, 36, 199));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
+}
+#email:hover {
+    background: linear-gradient(45deg, rgb(240, 81, 60), rgb(235, 23, 8));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: cover;
 }
