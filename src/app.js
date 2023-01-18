@@ -26,15 +26,7 @@ root = (req, res) => {
   res.render('index', {
     title: 'Home',
   });
-}
-
-menu = (req, res) => {
-  res.render('menu', {
-    title: 'Menu',
-  });
-}
-
-app.get('/menu', menu);
+};
 
 app.get('/', root);
 
