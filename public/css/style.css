@@ -21,6 +21,7 @@ body {
     font-family: 'Sofia Sans', sans-serif;
     text-transform: uppercase;
     transition: opacity 250ms ease;
+    transition: background 250ms ease;
     position: relative;
 }
 
@@ -128,23 +129,40 @@ a {
     transform: translate(3%, -12%) rotate(-7deg);
 }
 
+#email {
+    width: 90%;
+}
+#github-link {
+    width: 100%;
+}
+
 #github-link:hover {
-    background: linear-gradient(45deg, rgb(165, 2, 165), rgb(140, 0, 255));
+    background-color: rgb(165, 2, 165);
+    background: -webkit-linear-gradient(45deg, rgb(165, 2, 165), rgb(140, 0, 255));
     background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: cover;
-    position: relative;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
 }
 
 #phoneNum:hover {
-    background: linear-gradient(45deg, rgb(27, 134, 206), rgb(0, 36, 199));
+    background-color: rgb(27, 134, 206);
+    background: -webkit-linear-gradient(45deg, rgb(27, 134, 206), rgb(0, 36, 199));
     background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: cover;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
 }
 #email:hover {
-    background: linear-gradient(45deg, rgb(240, 81, 60), rgb(235, 23, 8));
+    background-color: rgb(240, 81, 60);
+    background: -webkit-linear-gradient(45deg, rgb(240, 81, 60), rgb(235, 23, 8));
     background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-size: cover;
+    background-size: 100%;
 }
