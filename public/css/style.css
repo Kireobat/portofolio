@@ -33,7 +33,7 @@ a {
 }
 
 .letter {
-    transition: transform 250ms ease;
+    transition: transform 350ms ease-out;
     display: inline-block;
     position: relative;
 }
