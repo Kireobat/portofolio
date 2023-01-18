@@ -28,6 +28,14 @@ root = (req, res) => {
   });
 }
 
+menu = (req, res) => {
+  res.render('menu', {
+    title: 'Menu',
+  });
+}
+
+app.get('/menu', menu);
+
 app.get('/', root);
 
 app.listen(port, () => {console.log("Server started on http://localhost:" + port)});

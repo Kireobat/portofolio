@@ -1,0 +1,49 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+.word {
+    color: white;
+    font-size: 6vw;
+    font-family: 'Roboto', sans-serif;
+    margin: 0rem;
+    text-transform: uppercase;
+    transition: opacity 250ms ease;
+}
+
+.line {
+    display:flex;
+    justify-content: space-between;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
+
+
+.text:hover > .word {
+    opacity: 0.2;
+}
+
+.word:not(.text:hover){
+    opacity: 1;
+}
+
+.word:not(.fancy:hover) {
+    opacity: 0.2;
+}
+/* Denne fungere nesten
+.word:not(.fancy:hover) {
+    opacity: 0.2;
+}
+
+*/
+a {
+    text-decoration: none;
+}
