@@ -21,7 +21,6 @@ body {
     font-family: 'Sofia Sans', sans-serif;
     text-transform: uppercase;
     transition: opacity 250ms ease;
-    transition: background 250ms ease;
     position: relative;
 }
 
@@ -135,6 +134,18 @@ a {
 #github-link {
     width: 100%;
 }
+/*
+#word2 {
+    background-color: rgb(165, 2, 165);
+    background: -webkit-linear-gradient(45deg, rgb(255, 213, 0), rgb(24, 157, 0));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+}
+*/
 
 #github-link:hover {
     background-color: rgb(165, 2, 165);
@@ -148,8 +159,7 @@ a {
 }
 
 #phoneNum:hover {
-    background-color: rgb(27, 134, 206);
-    background: -webkit-linear-gradient(45deg, rgb(27, 134, 206), rgb(0, 36, 199));
+    background: linear-gradient(45deg, rgb(27, 134, 206), rgb(0, 36, 199));
     background-clip: text;
     -webkit-background-clip: text;
     -moz-background-clip: text;
