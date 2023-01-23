@@ -24,7 +24,7 @@ app.use(express.urlencoded({ extended: true }));
 // routes
 root = (req, res) => {
   res.render('index', {
-    title: 'Erik\'s Portfolio',
+    title: 'Portfolio',
   });
 };
 
